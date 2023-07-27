@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "prepare": "npx nitropack prepare",
+    "dev": "npx nitropack dev",
+    "build": "npx nitropack build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitropack": "latest",
+    "openai": "^3.3.0",
+    "telegraf": "^4.12.2"
+  }
+}
